@@ -784,3 +784,40 @@ body {
 .div-accept {
   margin-bottom: 24px;
 }
+
+.laber-user {
+  font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+
+.user-span {
+  width: 16px;
+    height: 16px;
+    font-size: 12px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.send-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto",
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
