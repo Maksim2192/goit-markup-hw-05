@@ -566,17 +566,37 @@ body {
   font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    margin-bottom: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #fff;
  }
 
  .form {
+  display: flex;
   border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
     margin-top: 16px;
+ }
+
+ .label-email {
+  gap: 24px;
+ }
+
+ .input-label {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
  }
 
  .subscribe-email {
@@ -595,6 +615,11 @@ body {
     padding: 8px 24px;
     width: 165px;
     height: 40px;
+    min-width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
       background-color: #4D5AE5;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -609,6 +634,11 @@ body {
         margin-left: auto;
         margin-right: auto;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ .svg-subscribe {
+  margin-left: 16px;
+  
  }
 
  .modal-overlay {
