@@ -423,7 +423,18 @@
  <div class="modal-overlay">
     <div class="modal">
         <button class="button-modal" type="button">
-            <svg width="8" height="8" class="svg-modal" href="./images/symbol-defs.svg#true" ></svg>
+            <svg width="8" height="8" class="svg-modal">
+                <use href="./images/symbol-defs.svg#true" />
+            </svg>
+            <p class="modal-text">Leave your contacts and we will call you back</p>
+            <form>
+                <div class="div-form">
+                    <label class="label-modal" for="user-name">name</label>
+                    <div class="div-label-modal">
+                        <input type="text" id="user-name" name="user-name" class="input-form">
+                    </div>
+                </div>
+            </form>
         </button>
     </div>
  </div>
